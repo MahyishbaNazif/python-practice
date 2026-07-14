@@ -1,0 +1,5 @@
+f = open('myscript.txt','w')
+f.write("Assalam-o-alaikum")
+f.close()
+f = open('myscript.txt')
+print(f.read())

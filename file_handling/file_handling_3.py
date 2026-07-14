@@ -1,0 +1,5 @@
+f = open('myscript.txt', 'a')
+f.write(" Python is very important.")
+f.close()
+f = open('myscript.txt',)
+print(f.read())
